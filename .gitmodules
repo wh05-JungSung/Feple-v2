@@ -1,0 +1,6 @@
+[submodule "Feple_LLM_Algorithm"]
+	path = Feple_LLM_Algorithm
+	url = https://github.com/OhHyunSeo/Feple_LLM_Algorithm.git
+[submodule "Feple_AD"]
+	path = Feple_AD
+	url = https://github.com/OhHyunSeo/Feple_AD.git

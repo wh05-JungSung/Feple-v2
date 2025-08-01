@@ -31,7 +31,7 @@
 
 ## 🌊 **데이터 흐름도 (Data Flow)**
 
-- Feple의 데이터 처리 파이프라인은 상담 녹음 파일이 업로드되는 순간부터 최종 분석 리포트가 대시보드에 표시되기까지, 아래와 같이 체계적이고 자동화된 단계로 진행됩니다.
+> Feple의 데이터 처리 파이프라인은 상담 녹음 파일이 업로드되는 순간부터 최종 분석 리포트가 대시보드에 표시되기까지, 아래와 같이 체계적이고 자동화된 단계로 진행됩니다.
 
 ![Feple Data Flow](docs/Feple%20Data%20Flow.png)
 
@@ -41,16 +41,16 @@
 
 | Category      | Technologies |
 |---------------|--------------|
-| **Frontend**  | ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript) ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css) ![Recharts](https://img.shields.io/badge/-Recharts-8884d8?style=flat-square) |
-| **AI/ML**     | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch) ![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai) `faster-whisper` `pyannote.audio` |
-| **Backend**   | ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql) ![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma) |
-| **Infra/DevOps**| ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel) ![Replicate](https://img.shields.io/badge/-Replicate-000000?style=flat-square) ![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat-square&logo=supabase) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker) |
+| **Frontend**  | ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=ffffff) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=ffffff) ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=ffffff) ![Recharts](https://img.shields.io/badge/-Recharts-8884d8?style=flat-square) |
+| **AI/ML**     | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff) ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=ffffff) ![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=ffffff) ![faster-whisper](https://img.shields.io/badge/-huggingface-FFD21E?style=flat-square&logo=huggingface&logoColor=ffffff) |
+| **Backend**   | ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=ffffff) ![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=flat-square&logo=prisma) |
+| **Infra/DevOps**| ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=ffffff) ![Replicate](https://img.shields.io/badge/-Replicate-000000?style=flat-square) ![Supabase](https://img.shields.io/badge/-Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=ffffff) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=ffffff) |
 
 ---
 
 ## 🏛️ **기술 아키텍처 및 성능**
 
-- Feple은 최신 서버리스 기술과 고성능 AI 모델을 결합하여, 확장성과 효율성, 그리고 기술적 깊이를 모두 갖춘 시스템을 구현했습니다.
+> Feple은 최신 서버리스 기술과 고성능 AI 모델을 결합하여, 확장성과 효율성, 그리고 기술적 깊이를 모두 갖춘 시스템을 구현했습니다.
 
 ### **인프라 아키텍처: 100% Serverless & MSA**
 
@@ -74,7 +74,8 @@
 
 ## 🧠 **Hybrid AI & 한국어 특화된 AI 모델**
 
-- Feple의 AI는 단순히 외부 API를 호출하는 것을 넘어, 속도와 정확도, 비용 효율성을 모두 고려한 **하이브리드(Hybrid) AI 아키텍처**로 설계되었습니다. 이는 [`모델 정의서`](docs/모델%20정의서/Feple%20CALL%20모델%20정의서.pdf)에 상세히 기술된 Feple의 핵심적인 설계 철학입니다.
+> Feple의 AI는 단순히 외부 API를 호출하는 것을 넘어, 속도와 정확도, 비용 효율성을 모두 고려한 **하이브리드(Hybrid) AI 아키텍처**로 설계되었습니다.
+> 이는 [`모델 정의서`](docs/모델%20정의서/Feple%20CALL%20모델%20정의서.pdf)에 상세히 기술된 Feple의 핵심적인 설계 철학입니다.
 
 ### **왜 하이브리드 AI인가?**
 
@@ -104,12 +105,10 @@
 
 ## 💻 **핵심 코드**
 
-- Feple의 핵심 기능이 어떻게 코드로 구현되었는지 간략하게 알려드리겠습니다.
+> Feple의 핵심 기능이 어떻게 코드로 구현되었는지 간략하게 알려드리겠습니다.
 
 ### **`Feple_AD` - 동적 차트 생성 (in `ScoreChart.tsx`)**
 - *Recharts 라이브러리를 사용하여 AI 분석 결과를 바탕으로 동적인 레이더 차트를 생성하고, 상담사의 역량을 시각적으로 보여주는 핵심 컴포넌트입니다.*
-
-<img width="3960" height="1876" alt="carbon (3)" src="https://github.com/user-attachments/assets/b5d9ca6a-6116-47ca-ac08-89e3a6e451d6" />
 
 <details>
 <summary>코드 보기/숨기기</summary>
@@ -135,8 +134,6 @@ const ScoreChart = ({ data }) => (
 
 ### **`Feple_AI` - AI 분석 파이프라인 (in `pipeline.py`)**
 - *오디오 파일이 입력되었을 때, 화자 분리, STT, 지표 계산 등 전체 AI 분석 프로세스를 순차적으로 실행하고 결과를 종합하는 파이프라인의 중심부입니다.*
-
-<img width="3960" height="2024" alt="carbon (4)" src="https://github.com/user-attachments/assets/94086d96-df04-476d-b375-91e734b433f9" />
 
 <details>
 <summary>코드 보기/숨기기</summary>
@@ -165,8 +162,6 @@ class AnalysisPipeline:
 
 ### **`Feple_LLM_Algorithm` - 자동화된 LLM 피드백 생성 (in `LLM_evaluation_with_supabase.py`)**
 - *Supabase DB를 주기적으로 확인하여, 처리되지 않은 분석 결과가 있으면 자동으로 점수를 매기고 LLM을 호출하여 코칭 피드백을 생성한 뒤, 다시 DB에 저장하는 완전 자동화 로직의 핵심입니다.*
-
-<img width="3960" height="2176" alt="carbon (5)" src="https://github.com/user-attachments/assets/d65884df-1a66-4513-8c25-8599316059a0" />
 
 <details>
 <summary>코드 보기/숨기기</summary>
@@ -238,13 +233,13 @@ def main_loop():
 
 ## 📂 **프로젝트 문서 안내**
 
-- 프로젝트에 대한 더 깊이 있는 정보는 아래 `docs` 폴더의 문서를 참고해 주세요. (문서명을 클릭하면 해당 파일을 확인할 수 있습니다.)
+> 프로젝트에 대한 더 깊이 있는 정보는 아래 `docs` 폴더의 문서를 참고해 주세요. (문서명을 클릭하면 해당 파일을 확인할 수 있습니다.)
 
 | 문서명 | 주요 내용 및 기대효과 |
 | :--- | :--- |
-| [**Feple 프로젝트 계획서.pdf**](docs/Feple%20프로젝트%20계획서.pdf) | 프로젝트의 전체적인 일정, 범위, 리소스 계획을 담고 있습니다. **프로젝트의 초기 청사진을 이해할 수 있습니다.** |
+| [**Feple 프로젝트 계획서.pdf**](docs/Feple%20프로젝트%20계획서.pdf) | 프로젝트의 범위, 리소스 계획을 담고 있습니다. **프로젝트의 초기 청사진을 이해할 수 있습니다.** |
 | [**Feple 요구사항정의서.xlsx**](docs/Feple%20요구사항정의서.xlsx) | 시스템의 기능적/비기능적 요구사항 명세서입니다. **Feple이 해결하고자 하는 구체적인 문제와 목표를 파악할 수 있습니다.** |
-| [**Feple WBS.xlsx**](docs/Feple%20WBS.xlsx) | 프로젝트의 전체 작업을 상세하게 분할한 WBS(작업 분해 구조도)입니다. **팀의 체계적인 프로젝트 관리 방식을 엿볼 수 있습니다.** |
+| [**Feple WBS.xlsx**](docs/Feple%20WBS.xlsx) | 프로젝트의 전체 작업을 상세하게 분할한 WBS입니다. **팀의 체계적인 프로젝트 관리 방식을 엿볼 수 있습니다.** |
 | [**모델 정의서/Feple CALL 모델 정의서.pdf**](docs/모델%20정의서/Feple%20CALL%20모델%20정의서.pdf) | Feple AI 모델의 하이브리드 아키텍처, 기술 스택 선정 근거, 18개 세부 분석 지표의 상세 계산 방식 등 **모델의 핵심 설계 사상을 심도 있게 이해할 수 있습니다.** |
 | [**모델 정의서/Feple LLM Alogorithm 모델 정의서.pdf**](docs/모델%20정의서/Feple%20LLM%20Alogorithm%20모델%20정의서.pdf) | 5대 지표 산출을 바탕으로 강점, 개선점, 코칭 멘트가 생성되는 과정과 **LLM 프롬프트 설계 방식을 상세히 확인할 수 있습니다.** |
 | [**Feple 서비스 성능 평가 결과서.pdf**](docs/Feple%20서비스%20성능%20평가%20결과서.pdf) | AI 파이프라인 및 대시보드의 상세 성능(처리 속도, 응답 시간 등) 측정 결과와 분석, 병목 현상 및 개선 제안을 통해 **프로젝트의 기술적 완성도와 안정성을 객관적인 데이터로 확인할 수 있습니다.** |
@@ -264,11 +259,11 @@ def main_loop():
 
 ---
 
-## 📈 **향후 개선 계획 (Future Work)**
+## 📈 **향후 개선 계획**
 
-Feple은 현재의 완성도에 안주하지 않고, 지속적인 기술 개발을 통해 최고의 상담 분석 솔루션으로 발전하는 것을 목표로 합니다.
+> Feple은 현재의 완성도에 안주하지 않고, 지속적인 기술 개발을 통해 최고의 상담 분석 솔루션으로 발전하는 것을 목표로 합니다.
 
 -   [ ] **성능 최적화:** 현재 AI 파이프라인의 가장 큰 병목인 **화자 분리 모델의 처리 속도 개선**을 최우선 과제로 삼아, 더 가벼운 대체 모델을 연구하거나 현재 모델의 파라미터를 미세 조정하여 전체 분석 시간을 단축할 계획입니다.
 -   [ ] **자체 LLM 미세조정 (Fine-tuning):** 장기적으로는 외부 상용 API 의존도를 낮추고 비용 효율성을 높이기 위해, **Polyglot-Ko와 같은 경량화된 오픈소스 LLM을 상담 도메인 특화 데이터로 미세조정**하는 프로젝트를 추진할 것입니다.
 -   [ ] **분석 지표 확장:** '적극적 경청 지표(맞장구 등)', '상향/교차 판매 시도 탐지' 등 비즈니스 성과와 직결되는 새로운 분석 지표를 개발하여 분석의 깊이를 더할 예정입니다.
--   [ ] **관리자용 분석 UI 고도화:** QA 관리자 및 센터장이 데이터를 다각도로 탐색하고 인사이트를 얻을 수 있는 **웹 기반의 시각화 대시보드**를 추가 개발할 계획입니다.
+-   [ ] **관리자용 분석 UI 고도화:** QC 관리자 및 센터장이 데이터를 다각도로 탐색하고 인사이트를 얻을 수 있는 **웹 기반의 시각화 대시보드**를 추가 개발할 계획입니다.

@@ -174,7 +174,7 @@
 
 | 구분 | 실제 화면 |
 | :---: | :---: |
-| 상담사 대시보드 | <img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/8f9e6d78-1aac-4ef5-a2d0-95becef2f7f3" /> |
-| 상담사 모니터링 | <img width="1919" height="879" alt="image" src="https://github.com/user-attachments/assets/05247edd-9657-45dd-90b9-c81aa0c87425" /> |
-| QC 관리자 대시보드 | <img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/ba6cd5d8-4663-433e-b5d7-99fb7d9cc750" /> |
-| QC 관리자 모니터링 | <img width="1919" height="880" alt="image" src="https://github.com/user-attachments/assets/7a63d15a-c187-4532-9924-81b51e2ba368" /> |
+| 상담사<br> 대시보드 | <img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/8f9e6d78-1aac-4ef5-a2d0-95becef2f7f3" /> |
+| 상담사<br> 모니터링 | <img width="1919" height="879" alt="image" src="https://github.com/user-attachments/assets/05247edd-9657-45dd-90b9-c81aa0c87425" /> |
+| QC<br> 관리자<br> 대시보드 | <img width="1919" height="878" alt="image" src="https://github.com/user-attachments/assets/ba6cd5d8-4663-433e-b5d7-99fb7d9cc750" /> |
+| QC<br> 관리자<br> 모니터링 | <img width="1919" height="880" alt="image" src="https://github.com/user-attachments/assets/7a63d15a-c187-4532-9924-81b51e2ba368" /> |

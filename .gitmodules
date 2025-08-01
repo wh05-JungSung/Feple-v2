@@ -4,3 +4,6 @@
 [submodule "Feple_AD"]
 	path = Feple_AD
 	url = https://github.com/OhHyunSeo/Feple_AD.git
+[submodule "Feple_AI"]
+	path = Feple_AI
+	url = https://github.com/wh05-JungSung/feple-ai.git
